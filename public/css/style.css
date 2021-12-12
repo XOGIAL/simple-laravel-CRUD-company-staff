@@ -1,0 +1,61 @@
+.navcontainer
+{
+    display: flex;
+    background-color: gray;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.navcontainer>a
+{
+    display: block;
+    border: black solid;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+
+.navcontainer>a:hover
+{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+html,body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.listcontainer
+{
+    width: 50%;
+}
+
+
+.datacontainer
+{
+    display: flex;
+    align-items: center;
+}
+
+.datacontainer>p
+{
+    flex: 1;
+    border: black solid;
+    padding: 5px;
+}
+
+.datacontainer>a
+{
+    width: auto;
+    background-color: transparent;
+    border: solid black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    padding: 5px;
+}
